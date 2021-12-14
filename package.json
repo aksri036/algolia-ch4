@@ -1,0 +1,24 @@
+{
+  "name": "wine-search",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "dev": "DEBUG=wine-search:* npm start",
+    "migrate": "node ./bin/migration"
+  },
+  "dependencies": {
+    "algoliasearch": "^4.11.0",
+    "async": "^3.2.2",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "lodash": "^4.17.21",
+    "morgan": "~1.9.1",
+    "pug": "2.0.0-beta11",
+    "sqlite": "^4.0.23",
+    "sqlite3": "^5.0.2",
+    "util": "^0.12.4"
+  }
+}
